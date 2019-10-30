@@ -20,15 +20,15 @@ public class MatrixMathDriver
 		 */
 		
 	
-        System.out.println(mathA.rowSum());
-        mathA.rowAve();
-        mathA.colSum();
-        mathA.colAve();
+        System.out.println(Arrays.toString(mathA.rowSum()));
+        System.out.println(Arrays.toString(mathA.rowAve()));
+        System.out.println(Arrays.toString(mathA.colSum()));
+        System.out.println(Arrays.toString(mathA.colAve()));
         
         MatrixMath mathB = new MatrixMath(B);
-        mathB.rowSum();
-        mathB.rowAve();
-        mathB.colSum();
-        mathB.colAve();
+        System.out.println(Arrays.toString(mathB.rowSum()));
+        System.out.println(Arrays.toString(mathB.rowAve()));
+        System.out.println(Arrays.toString(mathB.colSum()));
+        System.out.println(Arrays.toString(mathB.colAve()));
     }
 }
